@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../QaAutoUnitTest1/QaAutoUnitTest1.csproj" Id="f80374bc-93f1-484a-89ba-e14cad3c38ea" />
+  <Project Path="QaAuto.csproj" Id="f07a8064-9f5d-410b-9766-81f08a3318b2" />
+</Solution>
