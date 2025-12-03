@@ -13,6 +13,9 @@ namespace QaAuto
 
             //Console.WriteLine(tsk6.perfectNumber(25));
 
+            Task7 task7 = new Task7();
+
+            task7.checkPhoneNumber("052-8638640");
 
         }
 
