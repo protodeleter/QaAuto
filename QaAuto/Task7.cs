@@ -8,25 +8,28 @@ namespace QaAuto
 {
     public class Task7
     {
-        public void checkPhoneNumber(string phoneNumber)
+        public bool checkPhoneNumber(string phoneNumber)
         {
 
-            String phone = "052-8238640";
-
-            for (int i = 0; i < phoneNumber.Length; i++)
+            // check if first dig is 0 and second is 5
+            if ((int) phoneNumber[0] != 48 || (int)phoneNumber[1] != 53 )
             {
-                if (phoneNumber[i] != phone[i])
-                {
-                    Console.WriteLine("The phone number is incorrect");
-                    return;
-                }
+                return false;
             }
 
-            foreach (var item in phone)
+
+            // check if third dig is bigger than 8
+            if ((int)phoneNumber[2] > 56)
             {
-                Console.WriteLine(item);
+                return false;
             }
 
+            // check if fourth dig is '-'
+            if ( (int) phoneNumber[3] != 45)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

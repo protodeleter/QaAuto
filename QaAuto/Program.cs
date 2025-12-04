@@ -15,7 +15,7 @@ namespace QaAuto
 
             Task7 task7 = new Task7();
 
-            task7.checkPhoneNumber("052-8638640");
+            Console.WriteLine(task7.checkPhoneNumber("152-8638640"));
 
         }
 
