@@ -53,6 +53,8 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task7_unitTest.cs" />
+    <Compile Include="Task10_UnitTest.cs" />
+    <Compile Include="Task5_unitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
